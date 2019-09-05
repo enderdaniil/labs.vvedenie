@@ -7,9 +7,7 @@ int main() {
     a*=a;
     b*=b;
     sum=a+b;
-    if (a>b){
-    raz=a-b;}
-    else {raz=b-a;}
+    raz=a-b;
     proizv=a*b;
     chast=a/b;
     cout<<"chastnoe="<<chast<<endl<<"raznost="<<raz<<endl<<"proizv="<<proizv<<endl<<"summ="<<sum<<endl;
